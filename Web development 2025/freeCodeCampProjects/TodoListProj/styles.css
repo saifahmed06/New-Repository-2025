@@ -1,0 +1,26 @@
+a{
+    text-decoration:solid;
+    color: rgb(5, 179, 25);
+    
+}
+
+a:visited{
+    color: rgb(15, 129, 229);
+}
+
+a:hover{
+    color: brown;
+}
+a:focus{
+    outline: 1px solid blue;
+}
+a:active{
+    color: blueviolet;
+}
+
+
+div{
+    background-color: aquamarine;
+}
+
+

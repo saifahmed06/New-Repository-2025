@@ -1,0 +1,46 @@
+input + button {
+    background-color: pink;
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color: rgb(165, 130, 198);
+}
+
+/* #direct child */
+
+footer>a{
+    color: rgb(223, 144, 42);
+}
+
+/* ATRIBUTE SELECTOR */
+input[type="password"]{
+    color: rgb(215, 9, 129);
+}
+
+section[class="post"]{
+    background-color: rgb(221, 92, 221);
+    font-style: italic;
+    font-weight: bold;
+}
+
+a[href*="google"]{
+    color: blueviolet;
+}
+
+a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+button:hover{
+    color: #6a994e;
+    background-color: #ffb703;
+}
+.post button:hover{
+color: rgb(0, 255, 72);
+}
+.post a{
+    text-decoration: underline;
+}
+
+button:active{}

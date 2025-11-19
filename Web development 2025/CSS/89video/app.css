@@ -1,0 +1,12 @@
+h1{
+    color:red ;
+    background-color: aqua;
+    border: 1px;
+    display: inline;
+}
+h2{
+    color:rgb(0, 255, 34) ;
+    background-color: rgb(197, 177, 29);
+    border: 1px;
+    display: inline;
+}
