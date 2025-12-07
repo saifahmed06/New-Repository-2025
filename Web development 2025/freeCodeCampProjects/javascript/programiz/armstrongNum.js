@@ -8,7 +8,8 @@
 function armStrong(num){ // num = 153
     let sum = 0, temp = num; // temp = 153 
     let noOfDigits = num.toString().length // noOfDigits = 3
-    while(temp>0){ // while(153>0) (15>0) (1>0) (0>0)
+    while(temp>0){ // while(153>0) (15>0) (1>0) (0>0) 
+        /*This loop runs until the number becomes 0.We remove digits one by one from the right.temp = 153 → 15 → 1 → 0 Loop stops when temp = 0.*?*/
         let remainder = temp%10 // 153 % 10 =  remainder = 3 // 15%10 = 5 // 1%10 = 1
         console.log(remainder)
         sum+= remainder ** noOfDigits // sum=  0+ 3**3= 0+ 27 = 27+5**3= 27 + 125= 152+1**3= 153 

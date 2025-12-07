@@ -1,0 +1,4 @@
+query selector
+a newer all in one method to select a single element
+
+queryselectorAll
